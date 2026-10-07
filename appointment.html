@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Appointment | BrightSmile</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+<header class="header">
+
+  <div class="container nav">
+
+    <a class="logo" href="index.html">
+      Bright<span>Smile</span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn">
+      ☰
+    </button>
+
+    <nav id="navLinks">
+
+      <a href="index.html">Home</a>
+
+      <a href="about.html">About</a>
+
+      <a href="services.html">Services</a>
+
+      <a href="doctors.html">Doctors</a>
+
+      <a href="treatments.html">Treatments</a>
+
+      <a href="facilities.html">Facilities</a>
+
+      <a class="active" href="appointment.html">
+        Appointment
+      </a>
+
+      <a href="faq.html">FAQ</a>
+
+    </nav>
+
+  </div>
+
+</header>
+
+
+<section class="page-hero">
+
+  <div class="container">
+
+    <p class="eyebrow">
+      BOOK A VISIT
+    </p>
+
+    <h1>
+      Request an appointment.
+    </h1>
+
+    <p>
+      Choose your preferred service and date.
+      This demo form does not use email.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section class="section">
+
+  <div class="container form-layout">
+
+
+    <form
+      class="appointment-form"
+      id="appointmentForm"
+    >
+
+      <label>
+        Full Name
+
+        <input
+          type="text"
+          id="patientName"
+          required
+          placeholder="Enter your name"
+        >
+
+      </label>
+
+
+      <label>
+        Phone Number
+
+        <input
+          type="tel"
+          id="phone"
+          required
+          placeholder="03XX XXXXXXX"
+        >
+
+      </label>
+
+
+      <label>
+        Service
+
+        <select id="service" required>
+
+          <option value="">
+            Choose a service
+          </option>
+
+          <option>
+            Dental Check-up
+          </option>
+
+          <option>
+            Teeth Cleaning
+          </option>
+
+          <option>
+            Cosmetic Dentistry
+          </option>
+
+          <option>
+            Root Canal
+          </option>
+
+          <option>
+            Braces Consultation
+          </option>
+
+          <option>
+            Dental Implants
+          </option>
+
+        </select>
+
+      </label>
+
+
+      <label>
+        Preferred Date
+
+        <input
+          type="date"
+          id="date"
+          required
+        >
+
+      </label>
+
+
+      <label>
+        Preferred Time
+
+        <select id="time" required>
+
+          <option value="">
+            Choose time
+          </option>
+
+          <option>9:00 AM</option>
+          <option>11:00 AM</option>
+          <option>2:00 PM</option>
+          <option>5:00 PM</option>
+          <option>7:00 PM</option>
+
+        </select>
+
+      </label>
+
+
+      <label>
+
+        Additional Note
+
+        <textarea
+          id="note"
+          rows="4"
+          placeholder="Tell us anything important"
+        ></textarea>
+
+      </label>
+
+
+      <button
+        class="btn"
+        type="submit"
+      >
+        Request Appointment
+      </button>
+
+
+      <p
+        id="formMessage"
+        class="form-message"
+      ></p>
+
+    </form>
+
+
+    <div class="info-box appointment-info">
+
+      <h2>
+        Before your visit
+      </h2>
+
+      <p>
+        • Arrive 10 minutes early.
+      </p>
+
+      <p>
+        • Bring previous dental records if available.
+      </p>
+
+      <p>
+        • Tell the doctor about any current concerns.
+      </p>
+
+      <hr>
+
+      <h3>
+        Clinic Hours
+      </h3>
+
+      <p>
+        Mon–Sat: 9 AM – 8 PM
+      </p>
+
+      <p>
+        Sun: 10 AM – 4 PM
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<footer>
+
+  <div class="container">
+
+    <p>
+      © 2026 BrightSmile Dental Clinic.
+      All rights reserved.
+    </p>
+
+  </div>
+
+</footer>
+
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
